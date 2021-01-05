@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/react-redux": "^6.0.9",
     "@types/redux-logger": "^3.0.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cors": "^2.8.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
