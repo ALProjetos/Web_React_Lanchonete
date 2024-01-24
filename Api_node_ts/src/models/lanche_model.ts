@@ -1,4 +1,3 @@
-import IngredienteModel from "./ingrediente_model";
 import EnumIngrediente from "../enum/enumIngrediente";
 
 interface ILacheModel {

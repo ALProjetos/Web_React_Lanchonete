@@ -15,16 +15,4 @@ const IngredienteEntitySchema = new Schema({
 
 const IngredienteEntity = mongoose.model<IIngredienteEntity>('Ingrediente', IngredienteEntitySchema);
 
-// class IngredienteEntity implements IIngredienteEntity {
-//   constructor(id: EnumIngrediente, valor: number){
-//       this.id = id;
-//       this.valor = valor;
-//       this.name = id.toString();
-//   }
-
-//   id: EnumIngrediente;
-//   name: string;
-//   valor: number;
-// }
-
 export default IngredienteEntity;
