@@ -1,0 +1,17 @@
+version: '3'
+services:
+  node-api-web-lanchonete:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '4001:4001'
+    depends_on:
+      - mongo
+    links:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'

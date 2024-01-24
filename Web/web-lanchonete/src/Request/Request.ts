@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 class Request{
-    private urlBase = "http://localhost:64814/api/";
+    // private urlBase = "http://localhost:64814/api/";
+    private urlBase = "http://localhost:4001/api/"; // Api feito em node.ts
 
     public async Get( url: string ): Promise<any> {
         let ret: any = null;
